@@ -1,0 +1,110 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://media.licdn.com/dms/image/v2/C4E0BAQFb6fBmZQLFLQ/company-logo_100_100/company-logo_100_100/0/1630616647461/surya_financial_systems_inc__logo?e=2147483647&v=beta&t=dpRPieEmw9scyl83CRhMtZo5AvA5f3a4oaQREkNXShs");
+    background-size:45%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+.App{
+    text-align:center;
+    margin:0 auto;
+    padding:20px;
+}
+.App-header{
+    background-color:lightblue;
+    /* background-image:url("./assets/image.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    padding:40px 40px;
+    border-radius: 25px;
+    
+}
+.App-header h1{
+    margin:50;
+    
+}
+.App-header img{
+  width:100px;
+height:100px;
+border-radius: 20px;
+
+}
+input[type=text] {
+    padding:10px;
+    margin:10px 0;
+    width:300px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+    box-shadow: 2px 2px 5px rgb(0, 140, 255);
+}
+button{
+    padding:10px 20px;
+    background-color:skyblue;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:rgb(120, 203, 236);
+}
+.weather-container{
+    margin-top:20px;
+    background-color:#fff;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.weather-container h2{
+    margin-bottom:10px;
+}
+.weather-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.weather-info .card{
+    width:48%;
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:10px;
+    box-sizing:border-box;
+    margin-bottom:10px;
+}
+.weather-info p{
+    margin:5px 0;
+}
+.footer{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+p{
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+input[type=date] {
+    padding:10px;
+    margin:10px 0;
+    width:300px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+    box-shadow: 2px 2px 5px rgb(0, 140, 255);
+}
